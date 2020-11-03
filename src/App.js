@@ -51,7 +51,7 @@ function App() {
                     value="Send Message" 
                     onClick={(e)=>{
                       e.preventDefault()
-                      axios.post(`https://v1.nocodeapi.com/ostapmedynskyy/telegram/kSneUkeTXlxESCaM/sendText?text=${message}`)
+                      axios.post(`https://api.telegram.org/bot1489996276:AAGcYVXv8FDVxRW4hNioXxRVx9sM9x0SK2s/sendMessage?chat_id=@testforhajpanuty&text=${message}`)
                         .then(function (response) {
                           // handle success
                           console.log(response);
