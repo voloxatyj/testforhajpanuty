@@ -51,7 +51,7 @@ function App() {
                     value="Send Message" 
                     onClick={(e)=>{
                       e.preventDefault()
-                      axios.post(`sendText?text=${message}`)
+                      axios.post(`https://v1.nocodeapi.com/ostapmedynskyy/telegram/kSneUkeTXlxESCaM/sendText?text=${message}`)
                         .then(function (response) {
                           // handle success
                           console.log(response);
